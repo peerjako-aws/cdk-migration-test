@@ -1,0 +1,13 @@
+---
+schemaVersion: "2.2"
+description: "Command Document Example JSON Template"
+mainSteps:
+- action: "aws:runShellScript"
+  name: "installCloudEndureAgent"
+  inputs:
+    runCommand:
+    - "curl 'https://s3.amazonaws.com/aws-cli/awscli-bundle.zip' -o 'awscli-bundle.zip'"
+    - "unzip awscli-bundle.zip"
+    - "./awscli-bundle/install -i /usr/local/aws -b /usr/bin/aws"
+    - "wget -O ./installer_linux.py https://console.cloudendure.com/installer_linux.py"
+    - "python ./installer_linux.py -t $(aws secretsmanager get-secret-value --secret-id '{0}' --query SecretString --output text --region {1}) --no-prompt"

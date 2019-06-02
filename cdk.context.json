@@ -1,0 +1,16 @@
+{
+  "availability-zones:account=586768923447:region=eu-west-1": [
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
+  ],
+  "ssm:account=586768923447:parameterName=/aws/service/ami-windows-latest/Windows_Server-2019-English-Full-SQL_2017_Web:region=eu-west-1": "ami-0578ac1e2caa642f4",
+  "ssm:account=586768923447:parameterName=/aws/service/ami-windows-latest/Windows_Server-2019-English-Full-Base:region=eu-west-1": "ami-03838ccd5cfb84782",
+  "availability-zones:account=586768923447:region=eu-north-1": [
+    "eu-north-1a",
+    "eu-north-1b",
+    "eu-north-1c"
+  ],
+  "ssm:account=586768923447:parameterName=/aws/service/ami-amazon-linux-latest/amzn-ami-hvm-x86_64-gp2:region=eu-west-1": "ami-03c242f4af81b2365",
+  "ssm:account=586768923447:parameterName=/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2:region=eu-west-1": "ami-030dbca661d402413"
+}
