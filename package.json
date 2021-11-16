@@ -26,7 +26,7 @@
     "@aws-cdk/cdk": "^0.33.0",
     "@types/js-base64": "^2.3.1",
     "@types/js-yaml": "^3.12.1",
-    "aws-sdk": "^2.466.0",
+    "aws-sdk": "^2.814.0",
     "js-base64": "^2.5.1",
     "js-yaml": "^3.13.1",
     "source-map-support": "^0.5.9",
